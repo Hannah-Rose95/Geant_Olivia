@@ -1,0 +1,37 @@
+# /gps/source/intensity 1
+ /gps/particle gamma
+/gps/energy 122 keV
+
+# 4 lines for particle gun like source
+#  /gps/particle gamma
+#  /gps/energy 141 keV
+#  /gps/pos/centre 0 0 7.62 cm
+#  /gps/direction 0 0 -1
+
+# 3D spherical source emitting gammas isotropically
+ /gps/ang/type iso
+ /gps/pos/type Volume
+ /gps/pos/shape Sphere
+ /gps/pos/centre 0 0 7.62 cm
+ /gps/pos/radius 0.26 mm
+
+#  2D disk shaped source emitting gammas isotropically
+#  /gps/pos/type Plane
+#  /gps/pos/shape Circle
+#  /gps/pos/radius 0.26 mm
+#  /gps/pos/centre 0 0 7.62 cm
+#  /gps/ang/type iso
+#  ##/gps/ang/type beam1d
+#  ##/gps/ang/sigma_x 40. deg
+#  ##/gps/ang/sigma_y 40. deg
+
+# 3D puck shaped source emitting gammas isotropically 
+#/gps/pos/type Volume
+#/gps/ang/type iso
+#/gps/pos/shape Cylinder
+#/gps/pos/radius 2 mm
+#/gps/pos/halfz 1.5 mm
+#/gps/pos/centre 0 0 7.77 cm
+
+
+/run/beamOn 1000000000

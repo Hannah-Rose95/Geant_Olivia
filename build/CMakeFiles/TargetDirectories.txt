@@ -1,0 +1,4 @@
+/home/local1/Geant4_Olivia/build/CMakeFiles/rebuild_cache.dir
+/home/local1/Geant4_Olivia/build/CMakeFiles/edit_cache.dir
+/home/local1/Geant4_Olivia/build/CMakeFiles/Sim.dir
+/home/local1/Geant4_Olivia/build/CMakeFiles/sim.dir
